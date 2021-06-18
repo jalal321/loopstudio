@@ -360,8 +360,13 @@ padding-right: 20px;
     .footer .row .social{
         position: absolute;
         bottom: 80px;
+       text-align: center;
+       
     }
 
+    .footer .row .links{
+        flex-basis: 100%;
+    }
     .footer .row .links ul li {
        display: block;
        margin-bottom: 1em;
@@ -369,6 +374,9 @@ padding-right: 20px;
     }
     
     .footer .row .copyright {
+        flex-basis: 100%;
       padding-top: 80px;
+      text-align: center;
 }
+
 }
